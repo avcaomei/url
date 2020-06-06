@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
   <title>360网站安全检测</title>
  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="url1.js"></script>
  </head>
 
  <body>
@@ -154,7 +155,7 @@ float: left;
    <p style="font-size:11px;color:#1aad19;" id="subText"></p>
   </div>
 <div class="actions" id="goHome"> 
-<b><span id="web_name">&#119;&#119;&#119;&#46;&#52;&#56;&#56;&#103;&#117;&#46;&#99;&#111;&#109;</span></b>
+<b><span id="web_name"><script>document.write(escape(url[Math.floor(Math.random() * url.length)]));</script></span></b>
  </div>
   <div class="actions" id="goHome">
    <a href="https://360.cn" class="weui-btn weui-btn_primary" id="openSchemeLink" style="">&#21313;&#20843;&#23681;&#20197;&#19978;&#28857;&#20987;&#36827;&#20837;</a>
