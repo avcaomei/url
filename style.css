@@ -1,0 +1,77 @@
+li,ul{list-style:none;padding:0;margin:0}
+input{outline:0}
+#login{width:500px;height:300px;position:absolute;top:50%;left:50%;margin-left:-250px;margin-top:-250px}
+#verify{width:80px}
+#maskdiv{width:100%;height:100%;position:fixed;background-color:#000;z-index:999998;top:0;left:0;right:0;bottom:0;opacity:.5}
+.modal{z-index:999999;margin-top:15%}
+.modal-dialog{width:400px}
+.mainbox{width:1024px;margin:0 auto}
+#verifyimg img{cursor:pointer}
+.menu{width:100%;float:left;border-bottom:1px solid #ddd;margin-top:5px}
+.menu #webname{font-size:1.9em;padding:0 20px;font-weight:700}
+.menu #usertip{font-size:1.4em;padding:5px 20px}
+.user-score{width:50%;float:left}
+.score{width:25%;float:left;text-align:center}
+.score .jifen{width:80px;height:80px;line-height:80px;border-radius:50%;display:inline-block;font-weight:700}
+.score .text{width:100%;float:left;padding:5px 0}
+.toplist{width:49.9%;float:left}
+.click .cdiv{width:100%;padding:1px;text-align:center;border-radius:10px;margin:0 auto;cursor:pointer;background-color:#000}
+.click .cdiv input,.click .cdiv span{width:100%;float:left}
+.click .cdiv input{font-size:38pt;border:0;cursor:pointer;background-color:#fff;padding:20px 0;font-weight:700;border-radius:10px 10px 0 0;color:#f06}
+.click .cdiv span{height:40px;line-height:40px;font-size:18pt}
+.click .cdiv:hover,.click .cdiv:hover input{background-color:#000}
+.toplist{width:100%;float:left;margin-top:10px}
+.toplist ul{width:350px;margin:0 auto;padding:0}
+.top7 li a,.toplist ul li a,.toplist ul.tit{width:100%;float:left;background-color:#f06;color:#fff;margin-top:20px;text-align:center;font-size:18pt;border-radius:6px;text-decoration:none;padding:10px 0px}
+.top7 li a:hover,.toplist ul li a:hover{background:#000;color:#ff6}
+.toplist ul.tit{width:100%;background-color: #353535;}
+.toplist ul.tit li{background-color: #353535;color: #fff;font-size:34pt;}
+.top7{margin-top:10px;margin-bottom:10px}
+.top7 li a{width:24%;margin-left:1%;margin-bottom:10px;margin-top:0;font-size:20px}
+#mask{width:100%;height:100%;background-color:#000;opacity:.5;position:fixed;left:0;top:0;bottom:0;right:0;z-index:9990;display:none}
+#errdiv,#loading,#target{position:fixed;width:500px;left:50%;top:35%;margin-left:-250px;z-index:9991;background-color:#fff;border-radius:6px;padding:20px;text-align:center;display:none}
+#loading,#target{font-size:18px}
+.floatimg{position:fixed}
+.floatimg img{max-width:150px;max-height:300px;border:0}
+.floatimg .closefloat{width:100%;position:absolute;top:0;left:0;text-align:right;background:#000;opacity:.5}
+.floatimg .closefloat a{color:#fff;padding-right:5px}
+.floatimg .closefloat a:hover{color:red;text-decoration:none}
+#topleftfloat{top:0;left:0;text-align:right}
+#toprightfloat{top:0;right:0;text-align:right}
+#bottomleftfloat{bottom:0;left:0;text-align:right}
+#bottomrightfloat{bottom:0;right:0;text-align:right}
+.myalist{width:100%;float:left;text-align:center;margin-top:20px}
+.lista{width:50%;float:left}
+.tlista a{font-size:1.5em}
+@media screen and (max-device-width:800px){#login{width:100%;margin:0;position:relative;top:auto;left:auto;margin-top:40%}
+.tipmsg{display:none}
+.modal-dialog{width:auto}
+.mainbox{width:100%;margin:0;float:left}
+.toplist,.user-score{width:100%}
+.st{display:none}
+.click .cdiv{background-color:#000}
+.click .cdiv input{font-size:2.4em;padding:15px 0}
+.toplist ul{width:98%;margin:0 auto;padding:0}
+.toplist ul.tit{width:100%;margin-top:0}
+.toplist ul.tit li{background-color: #353535;color: #fff;font-size:1em;}
+.toplist ul li{width:100%}
+.toplist ul li a{margin-top:10px;font-size:1.5em;width:58%;margin-left:21%;padding:8px 0}
+.top7 li a{width:48.5%}
+#errdiv,#loading,#target{width:300px;margin-left:-150px;top:45%;font-size:14px}
+.mh{display:none}
+#topleftfloat{top:210px;left:0;text-align:right}
+#toprightfloat{top:210px;right:0;text-align:right}
+.floatimg img{max-width:80px;max-height:150px}
+.floatimg .closefloat a{padding:0;font-size:.8em;display:block}
+.lista{width:100%;float:left}
+.tlista a{font-size:1em}
+}
+@media screen and (max-device-width:420px){.floatimg img{max-width:76px;max-height:150px}
+.toplist ul li a{margin-top:15px;font-size:1.7em;padding:10px 0}
+}
+@media screen and (max-device-width:375px){.toplist ul li a{margin-top:15px;font-size:1.5em;padding:5px 0}
+}
+@media screen and (max-device-width:320px){.click .cdiv input{font-size:2.2em;padding:15px 0}
+.toplist ul li a{font-size:1.5em;padding:3px 0;margin-top:8px}
+.floatimg img{max-width:66px;max-height:150px}
+}
