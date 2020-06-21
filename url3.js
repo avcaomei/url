@@ -5,8 +5,6 @@ var url2 = "";
 
 
 
-
-url.push("a53b.com");
 url.push("848zz.com");
 url.push("436uu.com");
 url.push("873qq.com");
@@ -183,14 +181,16 @@ url.push("77zzgg.com");
 url.push("477ta.com");
 url.push("477za.com");
 url.push("488ca.com");
+url.push("488en.com");
+url.push("488ku.com");
+url.push("488na.com");
+url.push("488wa.com");
 url.push("477na.com");
 url.push("477ne.com");
 url.push("477nu.com");
 url.push("477pu.com");
 url.push("477qu.com");
 url.push("7777en.com");
-
-
 
 
 //url2 = "http://" + escape(url[Math.floor(Math.random() * url.length)]);
