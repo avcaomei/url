@@ -212,7 +212,7 @@ td.visible-print,th.visible-print{display:table-cell!important}
 }
 *,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{font-size:10px;-webkit-tap-highlight-color:transparent}
-body{font-family:"Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','PingFang SC','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;font-size:13px;line-height:1.53846154;color:#353535;background-color:#ff2e5f}
+body{font-family:"Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','PingFang SC','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;font-size:13px;line-height:1.53846154;color:#353535;background-color: #333;}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#ec9913;text-decoration:none;-webkit-transition:all .4s cubic-bezier(.175,.885,.32,1);-o-transition:all .4s cubic-bezier(.175,.885,.32,1);transition:all .4s cubic-bezier(.175,.885,.32,1)}
 a:focus,a:hover{color:#ffffff;text-decoration:none}
