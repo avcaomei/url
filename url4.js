@@ -4,8 +4,6 @@ var url = new Array();
 var url2 = "";
 
 
-
-
 url.push("96uz.com");
 url.push("48xu.com");
 url.push("49yw.com");
@@ -206,7 +204,6 @@ url.push("64ni.com");
 url.push("46xw.com");
 url.push("73sv.com");
 url.push("76ay.com");
-
 
 
 
